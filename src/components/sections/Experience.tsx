@@ -31,7 +31,7 @@ export default function Experience() {
         </div>
 
         {/* Content */}
-        <div className="flex-1 min-w-0">
+        <div className="flex-1 min-w-0 overflow-hidden">
           <div className="mb-1 flex flex-wrap items-baseline gap-2">
             <h3 className="text-white font-semibold text-lg">{item.role}</h3>
             <span className="text-[#38bdf8]">@ {item.company}</span>
