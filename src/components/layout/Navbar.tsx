@@ -21,11 +21,11 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-[#0b1623]/95 backdrop-blur border-b border-[#1a3050]' : 'bg-transparent'
+        scrolled ? 'bg-[#0c0c0c]/95 backdrop-blur border-b border-[#2a2a2a]' : 'bg-transparent'
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#hero" className="font-mono text-[#38bdf8] text-sm font-semibold tracking-widest hover:text-white transition-colors">
+        <a href="#hero" className="font-mono text-[#f59e0b] text-sm font-semibold tracking-widest hover:text-white transition-colors">
           GA
         </a>
 
@@ -35,7 +35,7 @@ export default function Navbar() {
             <li key={l.href}>
               <a
                 href={l.href}
-                className="text-sm text-slate-400 hover:text-[#38bdf8] transition-colors"
+                className="text-sm text-slate-400 hover:text-[#f59e0b] transition-colors"
               >
                 {l.label}
               </a>
@@ -61,13 +61,13 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-[#0b1623] border-b border-[#1a3050] px-6 pb-4">
+        <div className="md:hidden bg-[#0c0c0c] border-b border-[#2a2a2a] px-6 pb-4">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
               onClick={() => setMenuOpen(false)}
-              className="block py-2 text-sm text-slate-400 hover:text-[#38bdf8] transition-colors"
+              className="block py-2 text-sm text-slate-400 hover:text-[#f59e0b] transition-colors"
             >
               {l.label}
             </a>

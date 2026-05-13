@@ -2,25 +2,27 @@ export default function About() {
   return (
     <section id="about" className="py-24 px-6 max-w-6xl mx-auto scroll-mt-16">
       <h2 className="text-3xl font-bold text-white mb-12">
-        <span className="text-[#38bdf8] font-mono text-lg mr-3">01.</span>About
+        <span className="text-[#f59e0b] font-mono text-lg mr-3">01.</span>About
       </h2>
 
       <div className="grid md:grid-cols-2 gap-12 items-start">
         <div className="space-y-5 text-slate-400 leading-relaxed">
           <p>
-            I'm a Senior C++ Software Engineer based in Turin, Italy, with five years of professional
-            experience building performance-critical software for complex systems. My work sits at the
-            intersection of real-time processing, computer vision, and desktop application development.
+            I'm a Senior C++ Software Engineer based in Rome, Italy, with five years of professional
+            experience building performance-critical software for complex systems. My work spans the
+            full stack — from low-level pipeline architecture and DNN inference to Qt/QML interfaces
+            and DevOps infrastructure.
           </p>
           <p>
-            At DMA I'm a core developer on a real-time railway inspection platform — a multithreaded
-            C++ pipeline running on inspection vehicles, integrating multiple DNN inference backends
-            (TensorRT, PyTorch, MMDeploy) and communicating over ZMQ. I've also owned the Qt/QML
-            frontend, including a full redesign of the CatenaryWearProcessor 2.0 GUI.
+            At DMA I work on a video inspection platform for railway infrastructure. Beyond day-to-day
+            development, I'm currently leading the architectural design of the next major version of
+            the framework — defining the execution model, threading strategy, and data-flow contracts
+            for a ground-up rewrite. I cover the system from requirements gathering through to CI/CD.
           </p>
           <p>
             Before that I spent nearly three years at Leonardo Aircraft Division (via ALTEN), developing
-            Qt-based HMI software and C++ simulation models for avionics mission systems.
+            mission system software for military aircraft in an environment aligned with avionics
+            safety standards.
           </p>
           <p>
             My academic background is in Computer Engineering (110/110, University of Salerno), with an
@@ -31,7 +33,7 @@ export default function About() {
 
         <div className="space-y-6">
           {/* Education */}
-          <div className="bg-[#111e2e] border border-[#1a3050] rounded-lg p-5">
+          <div className="bg-[#161616] border border-[#2a2a2a] rounded-lg p-5">
             <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Education</h3>
             <div className="space-y-4">
               <div>
@@ -47,7 +49,7 @@ export default function About() {
           </div>
 
           {/* Languages */}
-          <div className="bg-[#111e2e] border border-[#1a3050] rounded-lg p-5">
+          <div className="bg-[#161616] border border-[#2a2a2a] rounded-lg p-5">
             <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Languages</h3>
             <div className="space-y-2">
               <div className="flex justify-between">
@@ -62,16 +64,16 @@ export default function About() {
           </div>
 
           {/* Quick facts */}
-          <div className="bg-[#111e2e] border border-[#1a3050] rounded-lg p-5">
+          <div className="bg-[#161616] border border-[#2a2a2a] rounded-lg p-5">
             <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Currently</h3>
             <ul className="space-y-2 text-slate-400 text-sm">
               <li className="flex items-start gap-2">
-                <span className="text-[#38bdf8] mt-0.5">▸</span>
-                Working on VIRAiL — real-time railway video inspection (C++17, CMake, GitLab CI)
+                <span className="text-[#f59e0b] mt-0.5">▸</span>
+                Leading architecture of a next-gen real-time video inspection framework (C++17, DAG execution model, TensorRT)
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#38bdf8] mt-0.5">▸</span>
-                Open to senior C++ / Qt / embedded roles in UK, Germany, Netherlands, Switzerland
+                <span className="text-[#f59e0b] mt-0.5">▸</span>
+                Based in Rome — feel free to get in touch
               </li>
             </ul>
           </div>

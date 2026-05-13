@@ -10,7 +10,7 @@ import './index.css';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0b1623]">
+    <div className="min-h-screen bg-[#0c0c0c]">
       <Navbar />
       <main>
         <Hero />

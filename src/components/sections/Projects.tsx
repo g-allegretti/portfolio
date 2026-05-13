@@ -11,14 +11,14 @@ const FILTERS = [
 
 function ProjectCard({ p }: { p: Project }) {
   return (
-    <div className="bg-[#111e2e] border border-[#1a3050] rounded-lg p-6 flex flex-col gap-4 hover:border-[#38bdf8]/40 transition-colors group">
+    <div className="bg-[#161616] border border-[#2a2a2a] rounded-lg p-6 flex flex-col gap-4 hover:border-[#f59e0b]/40 transition-colors group">
       {/* Header */}
       <div className="flex items-start justify-between gap-3">
         <div>
           <div className="flex items-center gap-2 mb-1">
             <span className={`text-xs font-mono px-2 py-0.5 rounded ${
               p.category === 'demo'
-                ? 'bg-[#38bdf8]/10 text-[#38bdf8] border border-[#38bdf8]/30'
+                ? 'bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/30'
                 : p.category === 'thesis'
                 ? 'bg-amber-400/10 text-amber-400 border border-amber-400/30'
                 : 'bg-slate-600/20 text-slate-400 border border-slate-600/30'
@@ -27,7 +27,7 @@ function ProjectCard({ p }: { p: Project }) {
             </span>
             <span className="text-slate-600 text-xs font-mono">{p.year}</span>
           </div>
-          <h3 className="text-white font-semibold group-hover:text-[#38bdf8] transition-colors">
+          <h3 className="text-white font-semibold group-hover:text-[#f59e0b] transition-colors">
             {p.title}
           </h3>
           <p className="text-slate-500 text-xs mt-0.5">{p.subtitle}</p>
@@ -38,7 +38,7 @@ function ProjectCard({ p }: { p: Project }) {
             href={p.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-slate-600 hover:text-[#38bdf8] transition-colors shrink-0 mt-1"
+            className="text-slate-600 hover:text-[#f59e0b] transition-colors shrink-0 mt-1"
             aria-label="GitHub"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -56,7 +56,7 @@ function ProjectCard({ p }: { p: Project }) {
         <ul className="space-y-1.5">
           {p.highlights.map((h, i) => (
             <li key={i} className="text-xs text-slate-500 flex items-start gap-2">
-              <span className="text-[#38bdf8]/60 mt-0.5 shrink-0">▸</span>
+              <span className="text-[#f59e0b]/60 mt-0.5 shrink-0">▸</span>
               {h}
             </li>
           ))}
@@ -64,7 +64,7 @@ function ProjectCard({ p }: { p: Project }) {
       )}
 
       {/* Tags */}
-      <div className="flex flex-wrap gap-1.5 pt-1 border-t border-[#1a3050]">
+      <div className="flex flex-wrap gap-1.5 pt-1 border-t border-[#2a2a2a]">
         {p.tags.map((t) => (
           <Tag key={t} label={t} />
         ))}
@@ -81,7 +81,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 px-6 max-w-6xl mx-auto scroll-mt-16">
       <h2 className="text-3xl font-bold text-white mb-4">
-        <span className="text-[#38bdf8] font-mono text-lg mr-3">03.</span>Projects
+        <span className="text-[#f59e0b] font-mono text-lg mr-3">03.</span>Projects
       </h2>
       <p className="text-slate-500 text-sm mb-10 max-w-xl">
         Portfolio demos are standalone Qt/QML applications showing real-time data
@@ -96,8 +96,8 @@ export default function Projects() {
             onClick={() => setFilter(f.key)}
             className={`px-4 py-1.5 rounded text-sm transition-colors ${
               filter === f.key
-                ? 'bg-[#38bdf8] text-[#0b1623] font-semibold'
-                : 'border border-[#1a3050] text-slate-400 hover:border-[#38bdf8]/50 hover:text-slate-300'
+                ? 'bg-[#f59e0b] text-[#0c0c0c] font-semibold'
+                : 'border border-[#2a2a2a] text-slate-400 hover:border-[#f59e0b]/50 hover:text-slate-300'
             }`}
           >
             {f.label}

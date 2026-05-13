@@ -6,7 +6,7 @@ export interface SkillGroup {
 export const skillGroups: SkillGroup[] = [
   {
     category: 'Core Languages',
-    skills: ['C++17', 'C', 'Python', 'Ada', 'QML', 'TypeScript'],
+    skills: ['C++17', 'C', 'Python', 'Ada', 'QML', 'Bash'],
   },
   {
     category: 'Frameworks & Libraries',
@@ -18,14 +18,14 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Platforms & Tools',
-    skills: ['Linux', 'Windows', 'MSVC', 'GCC / Clang', 'QtCreator', 'VS Code', 'Intel VTune', 'Doxygen'],
+    skills: ['Linux', 'Windows', 'GCC / Clang', 'MSVC', 'QtCreator', 'VS Code', 'Intel VTune', 'Doxygen'],
   },
   {
     category: 'Embedded & Hardware',
-    skills: ['STM32 HAL', 'ESP-IDF', 'Raspberry Pi', 'NVIDIA Jetson Nano', 'UART/SPI/I2C', 'ADC+DMA'],
+    skills: ['STM32 HAL', 'ESP-IDF', 'Raspberry Pi', 'NVIDIA Jetson Nano', 'UART / SPI / I2C'],
   },
   {
     category: 'Computer Vision & AI',
-    skills: ['YOLO (v5/v8)', 'MobileNet SSD', 'LSTM / C3D', 'HOG + SVM', 'Panoptic Segmentation', 'Object Detection'],
+    skills: ['YOLO (v5/v8)', 'MobileNet SSD', 'LSTM / C3D', 'HOG + SVM', 'Panoptic Segmentation', 'TensorRT inference'],
   },
 ];

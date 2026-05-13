@@ -2,13 +2,13 @@
 
 @theme {
   --color-navy-950: #060e1a;
-  --color-navy-900: #0b1623;
-  --color-navy-800: #111e2e;
-  --color-navy-700: #152236;
-  --color-navy-600: #1a3050;
+  --color-navy-900: #0c0c0c;
+  --color-navy-800: #161616;
+  --color-navy-700: #1a1a1a;
+  --color-navy-600: #2a2a2a;
   --color-navy-500: #1e3d66;
-  --color-sky-400: #38bdf8;
-  --color-sky-300: #7dd3fc;
+  --color-amber-400: #f59e0b;
+  --color-amber-300: #fbbf24;
   --color-cyan-400: #22d3ee;
   --color-slate-400: #94a3b8;
   --color-slate-300: #cbd5e1;
@@ -30,7 +30,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #0b1623;
+  background-color: #0c0c0c;
   color: #cbd5e1;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
@@ -40,9 +40,9 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #0b1623;
+  background: #0c0c0c;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1a3050;
+  background: #2a2a2a;
   border-radius: 3px;
 }

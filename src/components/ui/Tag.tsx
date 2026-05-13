@@ -8,8 +8,8 @@ export default function Tag({ label, accent = false }: TagProps) {
     <span
       className={`inline-block px-2.5 py-0.5 rounded text-xs font-mono border ${
         accent
-          ? 'bg-[#38bdf8]/10 text-[#38bdf8] border-[#38bdf8]/30'
-          : 'bg-[#111e2e] text-slate-400 border-[#1a3050]'
+          ? 'bg-[#f59e0b]/10 text-[#f59e0b] border-[#f59e0b]/30'
+          : 'bg-[#161616] text-slate-400 border-[#2a2a2a]'
       }`}
     >
       {label}
