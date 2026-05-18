@@ -5,6 +5,7 @@ export interface Project {
   tags: string[];
   github?: string;
   image?: string;
+  private?: boolean;
   category: 'demo' | 'university' | 'thesis';
   year: string;
 }
@@ -18,6 +19,7 @@ export const projects: Project[] = [
     tags: ['C++17', 'Qt 5.15', 'QML', 'QQuickImageProvider', 'CMake'],
     github: 'https://github.com/g-allegretti/railway-inspection-dashboard-demo',
     image: '/screenshots/railway-dashboard.png',
+    private: true,
     category: 'demo',
     year: '2025',
   },
@@ -29,6 +31,7 @@ export const projects: Project[] = [
     tags: ['C++17', 'Qt 5.15', 'QML', 'QtCharts', 'QQuickImageProvider', 'CMake'],
     github: 'https://github.com/g-allegretti/line-scan-inspection-dashboard-demo',
     image: '/screenshots/line-scan-dashboard.png',
+    private: true,
     category: 'demo',
     year: '2025',
   },
