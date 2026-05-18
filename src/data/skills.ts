@@ -10,15 +10,15 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Frameworks & Libraries',
-    skills: ['Qt 5/6', 'OpenCV', 'Boost', 'TensorRT', 'TensorFlow / Keras', 'PyTorch', 'ROS / ROS 2', 'ZMQ', 'GTest'],
+    skills: ['Qt 5/6', 'OpenCV', 'Boost', 'TensorRT', 'TensorFlow / Keras', 'ROS', 'Gazebo', 'ZMQ', 'GTest', 'JSON / XML'],
   },
   {
-    category: 'Build & DevOps',
-    skills: ['CMake', 'Make', 'Docker', 'GitLab CI/CD', 'Git', 'Kestra'],
+    category: 'Build & CI/CD',
+    skills: ['CMake', 'Make', 'vcpkg', 'Docker', 'Debian Packaging', 'GitLab CI/CD', 'Git', 'GitHub', 'Kestra'],
   },
   {
     category: 'Platforms & Tools',
-    skills: ['Linux', 'Windows', 'GCC / Clang', 'MSVC', 'QtCreator', 'VS Code', 'Intel VTune', 'Doxygen'],
+    skills: ['Linux', 'Windows', 'GCC', 'MSVC', 'QtCreator', 'VS Code', 'gdb', 'Valgrind', 'Intel VTune', 'Doxygen'],
   },
   {
     category: 'Embedded & Hardware',
@@ -26,6 +26,6 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Computer Vision & AI',
-    skills: ['YOLO (v5/v8)', 'MobileNet SSD', 'LSTM / C3D', 'HOG + SVM', 'Panoptic Segmentation', 'TensorRT inference'],
+    skills: ['YOLO (v5/v8)', 'MobileNet SSD', 'LSTM / C3D', 'HOG + SVM'],
   },
 ];

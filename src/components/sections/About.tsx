@@ -8,21 +8,21 @@ export default function About() {
       <div className="grid md:grid-cols-2 gap-12 items-start">
         <div className="space-y-5 text-slate-400 leading-relaxed">
           <p>
-            I'm a Senior C++ Software Engineer based in Rome, Italy, with five years of professional
+            I'm a Senior C++ Software Engineer based in Rome, Italy, with six years of professional
             experience building performance-critical software for complex systems. My work spans the
-            full stack — from low-level pipeline architecture and DNN inference to Qt/QML interfaces
-            and DevOps infrastructure.
+            full stack — from low-level pipeline architecture to Qt/QML interfaces and CI/CD
+            infrastructure.
           </p>
           <p>
-            At DMA I work on a video inspection platform for railway infrastructure. Beyond day-to-day
-            development, I'm currently leading the architectural design of the next major version of
-            the framework — defining the execution model, threading strategy, and data-flow contracts
-            for a ground-up rewrite. I cover the system from requirements gathering through to CI/CD.
+            At DMA I work on a video inspection platform for railway infrastructure, where I lead
+            architectural decisions on the framework — execution model, threading strategy, and
+            data-flow contracts across the codebase. I'm involved end-to-end, from requirements
+            gathering through to CI/CD.
           </p>
           <p>
-            Before that I spent nearly three years at Leonardo Aircraft Division (via ALTEN), developing
-            mission system software for military aircraft in an environment aligned with avionics
-            safety standards.
+            Before that I spent nearly three years at Leonardo S.p.A. — Aircraft Division (via ALTEN),
+            designing and developing HMI applications for an avionics mission-simulation environment,
+            and contributing to the underlying flight-simulation model.
           </p>
           <p>
             My academic background is in Computer Engineering (110/110, University of Salerno), with an
@@ -38,12 +38,12 @@ export default function About() {
             <div className="space-y-4">
               <div>
                 <p className="text-slate-300 font-medium">M.Sc. Computer Engineering</p>
-                <p className="text-slate-500 text-sm">University of Salerno · 2020 · GPA 110/110</p>
+                <p className="text-slate-500 text-sm">University of Salerno · 2020 · 110/110</p>
                 <p className="text-slate-500 text-sm">Erasmus exchange · University of Groningen</p>
               </div>
               <div>
                 <p className="text-slate-300 font-medium">B.Sc. Computer Engineering</p>
-                <p className="text-slate-500 text-sm">University of Salerno · 2017 · GPA 95/110</p>
+                <p className="text-slate-500 text-sm">University of Salerno · 2017 · 95/110</p>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function About() {
             <ul className="space-y-2 text-slate-400 text-sm">
               <li className="flex items-start gap-2">
                 <span className="text-[#f59e0b] mt-0.5">▸</span>
-                Leading architecture of a next-gen real-time video inspection framework (C++17, DAG execution model, TensorRT)
+                Leading architecture on a real-time video inspection framework
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#f59e0b] mt-0.5">▸</span>
