@@ -10,17 +10,18 @@ export default function About() {
           <p>
             I'm a Senior C++ Software Engineer based in Rome, Italy, with six years of professional
             experience building performance-critical software for complex systems. My work spans the
-            full stack — from low-level pipeline architecture to Qt/QML interfaces and CI/CD
+            full stack - from low-level pipeline architecture to Qt/QML interfaces and CI/CD
             infrastructure.
           </p>
           <p>
             At DMA I work on a video inspection platform for railway infrastructure, where I lead
-            architectural decisions on the framework — execution model, threading strategy, and
-            data-flow contracts across the codebase. I'm involved end-to-end, from requirements
-            gathering through to CI/CD.
+            the architecture of the framework. I redesigned its execution model from a
+            thread-per-stage pipeline into a DAG-based task graph with GPU-aware scheduling, and
+            scaled TensorRT inference across multiple GPUs (~4.6x on four cards). I'm involved end-to-end,
+            from requirements gathering through to CI/CD.
           </p>
           <p>
-            Before that I spent nearly three years at Leonardo S.p.A. — Aircraft Division (via ALTEN),
+            Before that I spent nearly three years at Leonardo S.p.A. - Aircraft Division (via ALTEN),
             designing and developing HMI applications for an avionics mission-simulation environment,
             and contributing to the underlying flight-simulation model.
           </p>
@@ -63,6 +64,22 @@ export default function About() {
             </div>
           </div>
 
+          {/* Certifications */}
+          <div className="bg-[#161616] border border-[#2a2a2a] rounded-lg p-5">
+            <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Certifications</h3>
+            <a
+              href="https://learn.nvidia.com/certificates?id=8KBBifzeQl6efUG8R2WA1g"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block group"
+            >
+              <p className="text-slate-300 font-medium group-hover:text-[#f59e0b] transition-colors">
+                Getting Started with Accelerated Computing in Modern CUDA C++
+              </p>
+              <p className="text-slate-500 text-sm">NVIDIA Deep Learning Institute · Oct 2026</p>
+            </a>
+          </div>
+
           {/* Quick facts */}
           <div className="bg-[#161616] border border-[#2a2a2a] rounded-lg p-5">
             <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Currently</h3>
@@ -73,7 +90,7 @@ export default function About() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#f59e0b] mt-0.5">▸</span>
-                Based in Rome — feel free to get in touch
+                Based in Rome, Italy
               </li>
             </ul>
           </div>

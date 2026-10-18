@@ -25,8 +25,8 @@ export default function Hero() {
         </p>
 
         <p className="text-slate-400 text-lg leading-relaxed max-w-2xl mb-10">
-          I design and build performance-critical systems end-to-end — from low-level C++
-          pipelines to Qt/QML frontends and CI/CD infrastructure.
+          I design and build performance-critical systems end-to-end - from low-level C++
+          pipelines and GPU inference to Qt/QML frontends and CI/CD infrastructure.
           Six years across railway inspection, avionics, and vision-driven systems.
         </p>
 

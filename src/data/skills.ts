@@ -6,11 +6,11 @@ export interface SkillGroup {
 export const skillGroups: SkillGroup[] = [
   {
     category: 'Core Languages',
-    skills: ['C++17', 'C', 'Python', 'Ada', 'QML', 'Bash'],
+    skills: ['C++17/20', 'CUDA C++', 'C', 'Python', 'QML', 'Bash'],
   },
   {
     category: 'Frameworks & Libraries',
-    skills: ['Qt 5/6', 'OpenCV', 'Boost', 'TensorRT', 'TensorFlow / Keras', 'ROS', 'Gazebo', 'ZMQ', 'GTest', 'JSON / XML'],
+    skills: ['Qt 5/6', 'OpenCV', 'Boost', 'TensorRT', 'Taskflow', 'TensorFlow / Keras', 'ROS', 'Gazebo', 'ZMQ', 'GTest', 'JSON / XML'],
   },
   {
     category: 'Build & CI/CD',
