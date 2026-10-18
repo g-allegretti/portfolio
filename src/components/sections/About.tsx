@@ -14,11 +14,14 @@ export default function About() {
             infrastructure.
           </p>
           <p>
-            At DMA I work on a video inspection platform for railway infrastructure, where I lead
-            the architecture of the framework. I redesigned its execution model from a
-            thread-per-stage pipeline into a DAG-based task graph with GPU-aware scheduling, and
-            scaled TensorRT inference across multiple GPUs (~4.6x on four cards). I'm involved end-to-end,
-            from requirements gathering through to CI/CD.
+            At DMA (Plasser &amp; Theurer Group) I lead the architecture of a real-time video
+            inspection framework for railway infrastructure, now being brought to high-speed train
+            inspection. I redesigned its execution model from a thread-per-stage pipeline into a
+            DAG-based task graph with GPU-aware scheduling, and scaled TensorRT inference across
+            multiple GPUs (~4.6x on four cards). I also led the redesign of the catenary wear
+            measurement product, from 1 to up to 8 wires, now moving to line-scan cameras at up to
+            5 kHz. Beyond my own work, I review colleagues' code and help steer design decisions
+            across the team.
           </p>
           <p>
             Before that I spent nearly three years at Leonardo S.p.A. - Aircraft Division (via ALTEN),
@@ -86,7 +89,7 @@ export default function About() {
             <ul className="space-y-2 text-slate-400 text-sm">
               <li className="flex items-start gap-2">
                 <span className="text-[#f59e0b] mt-0.5">▸</span>
-                Leading architecture on a real-time video inspection framework
+                Bringing real-time video inspection to high-speed trains
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#f59e0b] mt-0.5">▸</span>
