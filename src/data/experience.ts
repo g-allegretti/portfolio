@@ -19,10 +19,10 @@ export const experience: ExperienceItem[] = [
     bullets: [
       'Lead the architecture of the framework, now being brought to high-speed train inspection: redesigned it from a thread-per-stage pipeline into a DAG-based execution model (Taskflow) with GPU-aware scheduling and decode/analysis overlap, delivering roughly 2-3x per-GPU inference throughput',
       'Engineered the GPU-accelerated inference layer (TensorRT) and scaled it across up to 4 GPUs (~4.6x throughput), sustaining ~99% GPU utilization where the previous serial-decode design dropped to ~40%. Validated on multi-GPU hardware (4x RTX 3090, NVIDIA L40S)',
-      'Led the full redesign of a catenary-wear measurement product: ground-up Qt/QML GUI rewrite, generalised the analysis from a single wire to up to 8 wires, rebuilt the way the system synchronises heterogeneous data streams, and sped up processing. Currently extending it to line-scan cameras running at up to 5 kHz for high-speed train inspection',
+      'Led the full redesign of a catenary-wear measurement product: ground-up Qt/QML GUI rewrite, generalized the analysis from a single wire to up to 8 wires, rebuilt the way the system synchronizes heterogeneous data streams, and sped up processing. Currently extending it to line-scan cameras running at up to 5 kHz for high-speed train inspection',
       'Built a standalone Qt/QML real-time monitoring application around the framework: live camera streams, defect detection results and runtime benchmarks',
       'Built additional Qt/QML interfaces and internal tools tailored to different customer deployments',
-      'Containerised the core libraries, packaged dependencies into a self-hosted Debian/APT repository, and set up multi-platform CI/CD pipelines (Linux GCC, Windows MSVC)',
+      'Containerized the core libraries, packaged dependencies into a self-hosted Debian/APT repository, and set up multi-platform CI/CD pipelines (Linux GCC, Windows MSVC)',
       "Review colleagues' code and support them with design and implementation choices, raising code quality across the team",
     ],
     tags: ['C++17/20', 'Qt/QML', 'OpenCV', 'TensorRT', 'CUDA', 'Taskflow', 'ZMQ', 'Docker', 'GitLab CI/CD', 'CMake', 'Multithreading'],
@@ -46,7 +46,7 @@ export const experience: ExperienceItem[] = [
     period: '03/2019 – 07/2019',
     location: 'Turin, Italy',
     description:
-      'Industry collaboration with the ESA/ASI centre for space logistics and robotics. Designed a terrain-aware kinematics library for planetary exploration rovers.',
+      'Industry collaboration with the ESA/ASI center for space logistics and robotics. Designed a terrain-aware kinematics library for planetary exploration rovers.',
     bullets: [
       'Implemented a C++ library that computes robot base posture (Z, roll, pitch) from commanded (X, Y, yaw) by querying Gazebo physics services - replacing a flat-terrain hardcode in the redundancy resolver',
       'Integrated the library into an existing ROS/MoveIt framework for a mobile manipulator; validated on inclined-slope scenarios with roll/pitch error ≤ 0.10 rad',

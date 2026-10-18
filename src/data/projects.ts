@@ -15,7 +15,7 @@ export const projects: Project[] = [
     title: 'Railway Inspection Dashboard',
     subtitle: 'Qt/QML Real-Time Dashboard Demo',
     description:
-      'Qt5/QML desktop application reproducing a real-time railway inspection monitoring interface. Dual-window layout - dashboard plus full-screen multi-camera viewer - with seven synchronised camera streams driven by a synthetic data engine.',
+      'Qt5/QML desktop application reproducing a real-time railway inspection monitoring interface. Dual-window layout - dashboard plus full-screen multi-camera viewer - with seven synchronized camera streams driven by a synthetic data engine.',
     tags: ['C++17', 'Qt 5.15', 'QML', 'QQuickImageProvider', 'CMake'],
     github: 'https://github.com/g-allegretti/railway-inspection-dashboard-demo',
     image: '/screenshots/railway-dashboard.png',
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     title: 'Line-Scan Inspection Dashboard',
     subtitle: 'Qt/QML Real-Time Dashboard Demo',
     description:
-      'Qt5/QML desktop application reproducing a real-time line-scan inspection GUI. Four synchronised sensor channels over a 200 m rolling buffer, scan-signal waveform with adaptive thresholds, and live scan-line image strips at ~36 km/h.',
+      'Qt5/QML desktop application reproducing a real-time line-scan inspection GUI. Four synchronized sensor channels over a 200 m rolling buffer, scan-signal waveform with adaptive thresholds, and live scan-line image strips at ~36 km/h.',
     tags: ['C++17', 'Qt 5.15', 'QML', 'QtCharts', 'QQuickImageProvider', 'CMake'],
     github: 'https://github.com/g-allegretti/line-scan-inspection-dashboard-demo',
     image: '/screenshots/line-scan-dashboard.png',
