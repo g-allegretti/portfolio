@@ -19,7 +19,7 @@ export default function About() {
             inspection. I redesigned its execution model from a thread-per-stage pipeline into a
             DAG-based task graph with GPU-aware scheduling, and scaled TensorRT inference across
             multiple GPUs (~4.6x on four cards). I also led the redesign of the catenary wear
-            measurement product, from 1 to up to 8 wires, now moving to line-scan cameras at up to
+            measurement product, from a single wire to up to 8 wires, now moving to line-scan cameras at up to
             5 kHz. Beyond my own work, I review colleagues' code and help steer design decisions
             across the team.
           </p>
