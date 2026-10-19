@@ -33,12 +33,14 @@ export const experience: ExperienceItem[] = [
     period: '07/2020 – 04/2023',
     location: 'Turin, Italy',
     description:
-      'Embedded in the avionics software team at Leonardo Aircraft Division for nearly three years, working on an avionics mission-simulation environment - Qt/C++ on the HMI side, and on the underlying flight and mission simulation model.',
+      'Embedded in the avionics software team at Leonardo Aircraft Division for nearly three years, working on an avionics mission-simulation environment - QML/C++ on the HMI side, and on the underlying flight and mission simulation model.',
     bullets: [
-      'Designed and developed Qt/C++ HMI applications for avionics mission simulation - real-time display of cockpit inputs, sensor states, and injection of simulated system failures for testing and training scenarios',
+      'Designed and developed QML/C++ HMI applications to configure and run simulated missions for pilot training - mission parameters and configurations, live mission telemetry, and injection of simulated system failures',
+      'Built a mission playback tool for pilot debriefing, featuring a macOS-style dock of simulation events that magnify on hover and open detail popups',
+      'Attended a three-week Qt training course (Qt Core, QML, Qt Quick) delivered by The Qt Company (2021)',
       'Developed and maintained a flight and mission simulation model in C++, focused on high reliability, numerical accuracy, and integration with avionics hardware-in-the-loop environments',
     ],
-    tags: ['C++', 'Qt', 'HMI', 'Avionics', 'Real-Time', 'Simulation'],
+    tags: ['C++', 'Qt', 'QML', 'HMI', 'Avionics', 'Real-Time', 'Simulation'],
   },
   {
     company: 'ALTEC S.c.p.A.',

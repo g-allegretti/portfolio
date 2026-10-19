@@ -25,7 +25,7 @@ export default function About() {
           </p>
           <p>
             Before that I spent nearly three years at Leonardo S.p.A. - Aircraft Division (via ALTEN),
-            designing and developing HMI applications for an avionics mission-simulation environment,
+            designing and developing QML/C++ HMI applications to configure, run and replay simulated training missions,
             and contributing to the underlying flight-simulation model.
           </p>
           <p>
@@ -69,7 +69,7 @@ export default function About() {
 
           {/* Certifications */}
           <div className="bg-[#161616] border border-[#2a2a2a] rounded-lg p-5">
-            <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Certifications</h3>
+            <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Certifications &amp; Training</h3>
             <a
               href="https://learn.nvidia.com/certificates?id=8KBBifzeQl6efUG8R2WA1g"
               target="_blank"
@@ -81,6 +81,10 @@ export default function About() {
               </p>
               <p className="text-slate-500 text-sm">NVIDIA Deep Learning Institute · Oct 2026</p>
             </a>
+            <div className="mt-4">
+              <p className="text-slate-300 font-medium">Qt Training: Qt Core, QML and Qt Quick</p>
+              <p className="text-slate-500 text-sm">The Qt Company · 3-week course · 2021</p>
+            </div>
           </div>
 
           {/* Quick facts */}
